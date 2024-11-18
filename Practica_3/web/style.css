@@ -1,0 +1,260 @@
+/* Definición de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/* Estilos para el encabezado de la página */
+.titulo-pagina-web {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.titulo-pagina-web h1 {
+  margin: 0;
+}
+
+.titulo-pagina-web img {
+  margin-left: 1rem;
+}
+
+/* Estilos para la barra de navegación */
+.indice {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.indice a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+.indice a:hover {
+  text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  #contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+  }
+  
+  p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  
+  ul, ol {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+  }
+/* Estilos para el cuerpo de la página */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Estilos de contenido */
+  
+  main {
+    padding: 20px;
+    background-color: #fff;
+  }
+
+/* Estilos para la sección de planificación */
+  
+.planificacion {
+    padding: 2rem;
+  }
+  
+  .planificacion h3 {
+    margin-top: 0;
+  }
+  
+/* Estilos para la sección de reparto del trabajo */
+  
+  .reparto-trabajo {
+    background-color: #f2f2f2;
+    padding: 2rem;
+  }
+  
+  .reparto-trabajo h3 {
+    margin-top: 0;
+  }
+  
+/* Estilos para la sección de plazos de entrega */
+  
+  .plazos-entrega {
+    padding: 2rem;
+  }
+  
+  .plazos-entrega h3 {
+    margin-top: 0;
+  }
+  
+/* Estilos para la sección de medios de reunión */
+  
+  .medios-reunion {
+    background-color: #f2f2f2;
+    padding: 2rem;
+  }
+  
+  .medios-reunion h3 {
+    margin-top: 0;
+  }
+  
+  .medios-reunion p:first-of-type {
+    margin-top: 0;
+  }
+  
+/* Estilos para la sección de resumen del desarrollo */
+  
+  .resumen-desarrollo {
+    padding: 2rem;
+  }
+  
+  .resumen-desarrollo h3 {
+    margin-top: 0;
+  }
+  
+  .resumen-desarrollo table {
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .resumen-desarrollo th, .resumen-desarrollo td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+  }
+  
+  .resumen-desarrollo th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .resumen-desarrollo td {
+    text-align: center;
+  }
+  
+/* Estilos para el formulario de contacto */
+  .formulario-contacto {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #ccc;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+  .formulario-titulo {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .formulario-contacto input[type="text"],
+  .formulario-contacto textarea {
+    display: block;
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formulario-contacto label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .formulario-contacto button[type="submit"] {
+    background-color: hsl(194, 39%, 49%);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .formulario-contacto button[type="submit"]:hover {
+    background-color: hsl(194, 39%, 49%);
+  }
+  
+  .formulario-contacto input[type="checkbox"] + label {
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .formulario-contacto input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  /* Estilos de artículo */
+  
+  article {
+    margin-top: 2.5rem;
+  }
+  
+  /* Estilos de lista de funcionalidades */
+  
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 1.5rem;
+  }
+  
+  li strong {
+    font-weight: bold;
+  }
+  
+  li p {
+    margin: 0;
+  }
+  
+  /* Estilos de imagen */
+  
+  img {
+    display: block;
+    margin: 0 auto;
+  }
