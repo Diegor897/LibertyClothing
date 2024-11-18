@@ -1,5 +1,5 @@
 # LibertyClothing
-Proyecto de Aplicaciones Web del grupo 4
+Proyecto de Aplicaciones Web del grupo 4 UNIVERSIDAD COMPLUTENSE DE MADRID
 URL:
 www.libertyclothing.es
 
